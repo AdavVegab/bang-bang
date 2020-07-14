@@ -18,7 +18,7 @@ this can be configured as following:
 
 ### Audio Processing
 
-/Assets/Scripts/AudioProcessing.cs
+> /Assets/Scripts/AudioProcessing.cs
 
 This Script Processes the Audio Track and with the help of the function
 
@@ -58,7 +58,7 @@ you can use this arrays in other scripts to create interesting interactions with
 
 ### Audio React
 
-/Assets/Scripts/AudioReact.cs
+> /Assets/Scripts/AudioReact.cs
 
 This script allows the GameObject to change the position in the y axis according to the value of the `_audioBand` or `_audioBandBuffer`, a GameObject with the script Audio Processing has to be present in the scene.
 
@@ -77,7 +77,7 @@ This script allows the GameObject to change the position in the y axis according
 
 ### Projectile Collision
 
-/Assets/Scripts/DetectCollision.cs
+> /Assets/Scripts/DetectCollision.cs
 
 will try to detect a collision with any of the player hands. when a collision is detected, the GameObject is deleted, and replaced with a explosion, then the materials of the buildings will be changed.
 
@@ -96,7 +96,7 @@ will try to detect a collision with any of the player hands. when a collision is
 
 ### Material Change
 
-/Assets/Scripts/MaterialBuilding.cs
+> /Assets/Scripts/MaterialBuilding.cs
 
 Tis Scripts allow other Objects to call the `TurnOn()` function, wich changes the material, then after a delay the material is changed back.
 
@@ -117,7 +117,7 @@ Tis Scripts allow other Objects to call the `TurnOn()` function, wich changes th
 
 ### Spawn Projectiles
 
-/Assets/Scripts/SpawnProjectile.cs
+> /Assets/Scripts/SpawnProjectile.cs
 
 Will control the creation of projectiles groups at exact times and with specific behaviors
 
