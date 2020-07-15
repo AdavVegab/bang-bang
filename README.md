@@ -6,13 +6,13 @@ VR Workshop - FH Münster - SS2020
 
 For this project a Grid Material was necessary, this was made using the Shader Graph
 
-To Apply this material just right click on the XXXXXX and select "New Material"
+To Apply this material just right click on the Grid (`/Materials/Grid`) and select `Create > Material`
 
-this can be configured as following:
+this can be then configured as following:
 
-- **Tiling**: Number of horinzontal and vertical lines
-- **Thickness**: The thickness of the Neon Lines
-- **Color**: The color (HDR), the intensity can be used to adjust the Bool effect
+- **Tiling**: Number of horinzontal and vertical lines (X,Y)
+- **Grid Size**: The thickness of the Neon Lines (0-> Maximal thickness)
+- **Grid Color**: The color (HDR), the intensity can be used to adjust the Bool effect
 
 ## Scripts
 
@@ -150,5 +150,4 @@ Will control the creation of projectiles groups at exact times and with specific
 - Set the options (audio Track is only needed in one spawner
 
 ## Projectiles
-
-### VFX Graph
+The projectiles and the explision are both created using VFX Graph, to use them, just drag them to the scene, you can then create Prefabs from the objects, an examplo of this prefabs are the `/Assets/Projectile/ProjectilePrefab` and the `/Assets/Projectile/explotion`
